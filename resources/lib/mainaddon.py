@@ -60,7 +60,7 @@ def get_playable_podcast(soup1):
     return subjects
 def compile_playable_podcast(playable_podcast):
     items = []
-    for podcast in playable_podcast1:
+    for podcast in playable_podcast:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
