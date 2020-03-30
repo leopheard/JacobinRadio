@@ -2,7 +2,6 @@ from xbmcswift2 import Plugin, xbmcgui
 from resources.lib import mainaddon
 
 plugin = Plugin()
-
 url1 = "https://feeds.blubrry.com/feeds/jacobin.xml"
 
 @plugin.route('/')
